@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Hind:400,600,700|Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/362ab4867c.js"></script>
+    <link rel="icon" href="./logo.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <title>Array-Methods</title>
+</head>
+<body>
+    <div class="container">
+        <div class="page-1">
+
+                <div class="header">
+                    <h1><u>Assignment : 02</u></h1>
+                </div>  
+                <hr>
+                <div class="boxes-area">
+                    <div class="box " onclick="Ap1()">
+                        <h2>P1</h2>
+                        <p> 
+                            Q1- Suppose you have data of students in the following form 
+                            <br>var data = [ 
+                                <br>{ 
+                                    name: "kashif", 
+                                    rollNumber: EP123, 
+                                    marks: { 
+                                        OS: 75, 
+                                        AI: 79, 
+                                        DLD: 85 
+                                    }
+                                }, <br>
+                                { 
+                                    name: "Raza", 
+                                    rollNumber: EP058, 
+                                    marks: { 
+                                        OS: 89, 
+                                        AI: 68, 
+                                        DLD: 71 
+                                    }  
+                                }, <br>
+                                { 
+                                    name: "Zubair", 
+                                    rollNumber: EP102, 
+                                    marks: { 
+                                        OS: 57, 
+                                        AI: 45, 
+                                        DLD: 60 
+                                    }  
+                                } <br>
+                            ] <br>
+                             
+                            You need to print the info of each student in console in the following manner <br>
+                            <br>-------------------------------------------------------------------<br>
+                            name - kashif <br>
+                            Roll Number - EP123 <br>
+                            Marks:  <br>
+                            OS - 75 <br>
+                            AI - 79 <br>
+                            DLD - 85 
+                            <br>--------------------------------------------------------------------<br>
+                            name - Raza  <br>
+                            .... 
+                            <br>--------------------------------------------------------------------<br>
+                            name - Zubair  <br>
+                            ... 
+                        </p>
+                        <div class="hide-items flex">
+                                <h1>Click to Run</h1>
+                                <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="box" onclick="Ap2()">
+                        <h2>P2</h2>
+                        <p> 
+                            Q2- Suppose you have data of employees in the following fashion 
+                            <br> var data = [ 
+                            <br> { 
+                                    name: "Kashif", 
+                                    age: 23, 
+                                    experience: 5, 
+                                    credit: 20000 
+                                }, <br>
+                                { 
+                                    name: "Raza", 
+                                    age: 18, 
+                                    experience: 1.5, 
+                                    credit: 12000 
+                                }, <br>
+                                { 
+                                    name: "zubair", 
+                                    age: 37, 
+                                    experience: 7, 
+                                    credit: 45000 
+                                }, <br>
+                            ] <br>
+                        
+                            You need to add (10000) in employee's amount if his experience is greater than 4 years ?<br>
+                            then display their data on console in the following manner 
+                            <br>-------------------------------------------------------------------<br>
+                            name - kashif <br>
+                            age : 23 <br>
+                            experience : 5  <br>
+                            credit: 22000 
+                            <br>--------------------------------------------------------------------<br>
+                            name - Raza  <br>
+                            .... 
+                            <br>--------------------------------------------------------------------<br>
+                            name - Zubair  <br>
+                            ... 
+                        </p>
+                        <div class="hide-items flex">
+                            <h1>Click to Run</h1>
+                            <i class="fas fa-chevron-right"></i>
+                    </div>
+                    </div>
+                    <div class="box" onclick="Ap3()">
+                        <h2>P3</h2>
+                        <p> 
+                            Q5- Suppose you have data in your e-commerce web's cart in the following fashion 
+                            <br> var cart = [ 
+                            <br> { 
+                                    item: "bag", 
+                                    quantity: 2, 
+                                    price: 2000 
+                                }, <br>
+                                { 
+                                    item: "data cable", 
+                                    quantity: 4, 
+                                    price: 500 
+                                }, <br>
+                                { 
+                                    item: "shoes", 
+                                    quantity: 1, 
+                                    price: 4000 
+                                }, <br>
+                            ] <br>
+                             
+                            you need to print on console the total amount <br>
+                            ---------------------------------------------------------------<br>
+                            Total Amount = 10000 <br>
+                            ---------------------------------------------------------------<br>
+                        </p>
+                        <div class="hide-items flex">
+                            <h1>Click to Run</h1>
+                            <i class="fas fa-chevron-right"></i>
+                    </div>
+                    </div>
+                    <div class="box" onclick="Ap4()">
+                        <h2>P4</h2>
+                        <p> 
+                            Q4- Suppose you have data of shipment stock 
+                            <br>var data = [ 
+                            <br>{ 
+                                    item: "laptop", 
+                                    quantity: 73 
+                                },<br>  
+                                { 
+                                    item: "mobile", 
+                                    quantity: 209 
+                                }, <br> 
+                                { 
+                                    item: "wallet", 
+                                    quantity: 790 
+                                }, <br> 
+                                { 
+                                    item: "mac", 
+                                    quantity: 0 
+                                }, <br> 
+                                { 
+                                    item: "handfree", 
+                                    quantity: 1084 
+                                },  <br>
+                            ] <br>
+                             
+                            You need to allow shipment if none of the item's quantity is 0. <br>
+                            You need to print msg on console whether shipment is allowed or not on the basis of above data. 
+                        </p>
+                        <div class="hide-items flex">
+                            <h1>Click to Run</h1>
+                            <i class="fas fa-chevron-right"></i>
+                    </div>
+                    </div>
+                    <div class="box" onclick="Ap5()">
+                        <h2>P5</h2>
+                        <p> 
+                            Q3- Suppose you have data of students in the following form 
+                            <br> var data = [ 
+                            <br> { 
+                                    name: "kashif", 
+                                    rollNumber: EP123, 
+                                    marks: { 
+                                        OS: 75, 
+                                        AI: 79, 
+                                        DLD: 85 
+                                    }  
+                                }, <br>
+                                { 
+                                    name: "Raza", 
+                                    rollNumber: EP058, 
+                                    marks: { 
+                                        OS: 89, 
+                                        AI: 68, 
+                                        DLD: 71 
+                                    }  
+                                }, <br>
+                                { 
+                                    name: "Zubair", 
+                                    rollNumber: EP102, 
+                                    marks: { 
+                                        OS: 57, 
+                                        AI: 45, 
+                                        DLD: 60 
+                                    }  
+                                }, <br>
+                            ] <br>
+                             
+                            you need to filter out data of students whose AI marks are greater than 60 and display those  
+                            students info in the manner below.
+                            <br>-------------------------------------------------------------------<br>
+                            name - kashif <br>
+                            roll Number - EP123 <br>
+                            marks:  <br>
+                            OS - 75 <br>
+                            AI - 79 <br>
+                            DLD - 85 
+                            <br>--------------------------------------------------------------------<br>
+                            name - Raza  <br>
+                            .... 
+                            <br>--------------------------------------------------------------------<br>
+                            name - Zubair  <br>
+                            ... 
+                        </p>
+                        <div class="hide-items flex">
+                            <h1>Click to Run</h1>
+                            <i class="fas fa-chevron-right"></i>
+                    </div>
+                    </div>
+
+                </div>
+        </div>
+
+       
+
+        <div class="page-2 flex">
+            <div class="copy-right">
+                <h3>This website has no Copy Rights. | All Rights Reserved.</h3>
+                <div class="social-icon-set flex">
+                    <a href="https://www.facebook.com/Muhammad.Arbab.Hussain.Siddiqui" target="blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/arbab_siddique/" target="blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/feed/" target="blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.google.com/maps/place/Nursery+Stop/@24.8993989,67.049372,17z/data=!4m8!1m2!2m1!1snursury+stop+liaquatabad!3m4!1s0x3eb33f01bc12544d:0xd9ca2e4c3224f58e!8m2!3d24.8998302!4d67.0505624" target="blank"><i class="fas fa-map-marker-alt"></i></a>                
+                    </div>
+            </div>
+        </div>
+</div>
+    <script src="./index.js"></script>
+</body>
+</html>
